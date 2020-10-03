@@ -7,12 +7,11 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Vector2 maxXandY;
     [SerializeField] private Vector2 minXandY;
     [SerializeField] private float smoothSpeed = 0.125f;
-    private Transform player;
+    [SerializeField] private Transform player;
     private Vector3 offset;
 
     private void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         offset = transform.position - player.position;
     }
     private void FixedUpdate()
