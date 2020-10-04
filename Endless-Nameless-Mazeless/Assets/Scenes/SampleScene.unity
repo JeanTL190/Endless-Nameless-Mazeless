@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb3e861367083674686014cace1cd2b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VelMax: 9
+  VelMax: 5
   acel: 0.05
   desac: 0.6
   angularVel: 3
