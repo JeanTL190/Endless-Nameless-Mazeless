@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 4b9ca6227d7f37c4b95d73c026e91261
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2467881857117612849
+    second: CArrinho-Sheet_0
+  - first:
+      213: -8865694826371235912
+    second: CArrinho-Sheet_1
+  - first:
+      213: 8840286390306458924
+    second: CArrinho-Sheet_2
+  - first:
+      213: 8110410080206282365
+    second: CArrinho-Sheet_3
+  - first:
+      213: -4627689855918661988
+    second: CArrinho-Sheet_4
+  - first:
+      213: 2018503601344557388
+    second: CArrinho-Sheet_5
+  - first:
+      213: 1972689379475983338
+    second: CArrinho-Sheet_0
+  - first:
+      213: 7158477715417191250
+    second: CArrinho-Sheet_1
+  - first:
+      213: -6069245960343166044
+    second: CArrinho-Sheet_2
+  - first:
+      213: -1476617825889044046
+    second: CArrinho-Sheet_3
+  - first:
+      213: 7661012041865485697
+    second: CArrinho-Sheet_4
+  - first:
+      213: 5552515316128999390
+    second: CArrinho-Sheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CArrinho-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb0ad3f986606b10800000000000000
+      internalID: 1972689379475983338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CArrinho-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ddff0e85085360800000000000000
+      internalID: 7158477715417191250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CArrinho-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3654f84f4b5cba0800000000000000
+      internalID: -6069245960343166044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CArrinho-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9bfda29eff18be0800000000000000
+      internalID: -1476617825889044046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CArrinho-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dd16fbcd1615a60800000000000000
+      internalID: 7661012041865485697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CArrinho-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7e8c3f24f7e0d40800000000000000
+      internalID: 5552515316128999390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
