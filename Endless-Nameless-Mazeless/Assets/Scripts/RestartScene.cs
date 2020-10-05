@@ -8,6 +8,7 @@ public class RestartScene : MonoBehaviour
     [SerializeField] private float timeReset = 10f;
     [SerializeField] private Text timeText;
     [SerializeField] private Transform player;
+    private bool lost = false;
     private float timeAtual;
     void Start()
     {
@@ -17,17 +18,24 @@ public class RestartScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timeAtual > 0f)
+        if (!lost)
         {
-            timeAtual -= Time.deltaTime;
-            timeText.text = timeAtual.ToString("F");
+            if (timeAtual > 0f)
+            {
+                timeAtual -= Time.deltaTime;
+                timeText.text = timeAtual.ToString("F");
+            }
+            else
+            {
+                timeAtual = timeReset;
+                timeText.text = timeAtual.ToString("F");
+                player.position = new Vector3(this.transform.position.x, this.transform.position.y, player.position.z);
+                player.eulerAngles = Vector3.zero;
+            }
         }
-        else
-        {
-            timeAtual = timeReset;
-            timeText.text = timeAtual.ToString("F");
-            player.position = new Vector3(this.transform.position.x, this.transform.position.y, player.position.z);
-            player.eulerAngles = Vector3.zero;
-        }
+    }
+    public void Lost()
+    {
+        lost = true;
     }
 }
